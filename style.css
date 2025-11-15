@@ -1,0 +1,166 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f6f7fb;
+    color: #222;
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    background: #ffcc00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 22px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.18);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+/* MENU 3 TITIK */
+.menu-kebab {
+    width: 28px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.menu-kebab span {
+    height: 4px;
+    background: #000;
+    border-radius: 5px;
+}
+
+/* POPUP MENU */
+.menu-popup {
+    position: absolute;
+    top: 60px;
+    right: 22px;
+    width: 240px;
+    background: #fff;
+    border-radius: 12px;
+    display: none;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+.menu-popup a {
+    display: block;
+    padding: 13px 16px;
+    color: #111;
+    font-size: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #ececec;
+    transition: .2s;
+}
+
+.menu-popup a:hover {
+    background: #ffe88a;
+}
+
+/* HERO */
+.hero {
+    padding: 140px 20px 80px;
+    text-align: center;
+}
+
+.logo-hero {
+    width: 150px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.hero span {
+    color: #ffcc00;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 16px;
+}
+
+/* SECTION */
+.section {
+    width: 92%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 35px 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.08);
+}
+
+.section h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.section p {
+    color: #444;
+    line-height: 1.7;
+}
+
+/* BUTTON */
+.btn-wa {
+    margin-top: 20px;
+    background: #25D366;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+    width: max-content;
+}
+
+.btn-wa:hover {
+    background: #1ebe5d;
+}
+
+/* BACK PAGE */
+.back-btn {
+    background: #fff;
+    padding: 8px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.back-btn:hover {
+    background: #f2f2f2;
+}
+
+/* PAGE CONTAINER */
+.page-container {
+    max-width: 900px;
+    margin: 110px auto 40px;
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 16px rgba(0,0,0,0.1);
+    text-align: center;
+}
